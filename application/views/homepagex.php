@@ -10,17 +10,17 @@
     <!-- hard coded for this assignment-->
     <div class="preset">
         {sets}
-            <a href="/homepage/display/{id}">
-                <button id="{id}" class="myButton">
-                    {name}
-                </button>
-                <br />
-            </a>
+        <a href="/homepage/display/{id}">
+            <button id="{id}" class="myButton">
+                {name}
+            </button>
+            <br />
+        </a>
         {/sets}
         <div>
-        <h3>{calories}</h3>
-        <h3>{protein}</h3>
-        <h3>{carbohydrates}</h3>
-      </div>
+            <h3>{calories}</h3>
+            <h3>{protein}</h3>
+            <h3>{carbohydrates}</h3>
+        </div>
     </div>
 </div>
